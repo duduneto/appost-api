@@ -1,0 +1,35 @@
+{
+  "name": "appost-api",
+  "version": "1.0.0",
+  "description": "Api para palpites de jogos",
+  "main": "loader.js",
+  "scripts": {
+    "dev": "nodemon",
+    "start": "nodemon loader.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "bcrypt": "^1.0.3",
+    "body-parser": "^1.18.2",
+    "co-views": "~0.1.0",
+    "cors": "^2.8.4",
+    "express": "^4.16.2",
+    "express-query-int": "^2.0.0",
+    "jsonwebtoken": "^8.1.1",
+    "koa": "^2.5.0",
+    "koa-bodyparser": "^4.2.0",
+    "koa-logger": "^3.1.0",
+    "koa-router": "^7.4.0",
+    "lodash": "^4.17.5",
+    "mongodb": "^2.2.10",
+    "mongoose": "^5.0.6",
+    "mongoose-paginate": "^5.0.3",
+    "node": "^9.5.0",
+    "node-restful": "^0.2.6",
+    "nodemon": "^1.14.12",
+    "pm2": "^2.10.1"
+  }
+}
